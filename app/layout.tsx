@@ -1,10 +1,10 @@
-import './globals.css'
-import { ReactNode } from 'react'
+import './globals.css';
+import { ReactNode } from 'react';
 
 export const metadata = {
   title: 'ADAPTEL',
   description: 'Application de gestion des plannings et commandes',
-}
+};
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
@@ -13,5 +13,5 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         {children}
       </body>
     </html>
-  )
+  );
 }
